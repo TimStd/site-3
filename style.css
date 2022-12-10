@@ -40,7 +40,7 @@ header {
   background-size: cover;
 
   height: 600px;
-  width: 1920px;
+  width: 100%;
 }
 
 .logo {
@@ -175,10 +175,6 @@ section {
 .header-teory {
   display: flex;
   align-items: center;
-}
-
-.header-teory a {
-  margin-left: 100px;
 }
 
 section .header-article {
@@ -421,7 +417,6 @@ section .body-article p {
   width: 500px;
 }
 
-
 .feedback-main {
   margin-bottom: 15px;
 }
@@ -432,7 +427,7 @@ section .body-article p {
 }
 
 .feedback-form {
-    width: 700px;
+  width: 700px;
 }
 
 .feedback-form input[type="text"] {
@@ -465,13 +460,13 @@ section .body-article p {
 }
 
 .feedback-number {
-padding-top: 10px;
+  padding-top: 10px;
   float: left;
   width: 340px;
 }
 
 .feedback-email {
-    padding-top: 10px;
+  padding-top: 10px;
   float: right;
   width: 340px;
 }
