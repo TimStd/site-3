@@ -182,31 +182,34 @@
                 <h2 class="feedback-header">Остались вопросы?</h2>
                 <p>Свяжитесь с нами, и мы развеем оставшиеся у вас сомнения!</p>
             </div>
-            <form action="feedback-from" class="feedback-form" method="POST">
-                <label for="fio">Представьтесь, пожалуйста:</label>
-                <input type="text" name="fio" id="fio">
-                <div class="feedback-number">
-                    <label for="phone">Контактный телефон:</label>
-                    <input type="text" name="phone" id="phone">
-                </div>
-                <div class="feedback-email">
-                    <label for="email">Электронная почта:</label>
-                    <input type="text" name="email" id="email">
-                </div>
-                <div class="feedback-checkbox">
-                    <input type="checkbox">
-                    <p>Согласен получать спам и смс на телефон</p>
-                </div>
-                <div class="header-report">
-                    <p class="class-report">Тема обращения</p>
-                    <input type="text" name="name-report" id="text">
-                </div>
-                <div class="text-report">
-                    <p class="text-report">Текс обращения</p>
-                    <input type="maintext" name="text" id="text">
-                </div>
-                <input class="button" type="submit" value="Отправить">
-            </form>
+            <div class="form-photo">
+                <form action="feedback-from" class="feedback-form" method="POST">
+                    <label for="fio">Представьтесь, пожалуйста:</label>
+                    <input type="text" name="fio" id="fio">
+                    <div class="feedback-number">
+                        <label for="phone">Контактный телефон:</label>
+                        <input type="text" name="phone" id="phone">
+                    </div>
+                    <div class="feedback-email">
+                        <label for="email">Электронная почта:</label>
+                        <input type="text" name="email" id="email">
+                    </div>
+                    <div class="feedback-checkbox">
+                        <input type="checkbox">
+                        <p>Согласен получать спам и смс на телефон</p>
+                    </div>
+                    <div class="header-report">
+                        <p class="class-report">Тема обращения</p>
+                        <input type="text" name="name-report" id="text">
+                    </div>
+                    <div class="text-report">
+                        <p class="text-report">Текс обращения</p>
+                        <input type="maintext" name="text" id="text">
+                    </div>
+                    <input class="button" type="submit" value="Отправить">
+                </form>
+                <div class="photo-message"></div>
+            </div> 
         </section>
     </div>
 </main>
